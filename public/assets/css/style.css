@@ -1,0 +1,30 @@
+.options_open {
+    z-index: 1;
+    position: absolute;
+    top: 10%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition:2s
+}
+
+.options_close {
+    z-index: 1;
+    position: absolute;
+    top: 90%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition:2s
+}
+
+.products {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.products_img {
+    min-width: 318px;
+    max-width: 318px;
+    min-height: 318px;
+    max-height: 318px;
+}
